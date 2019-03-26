@@ -1,9 +1,17 @@
 #include <stdio.h>
 
 main () {
-    int numeroDecimal, numeroBinario;
+    int numeroDecimal, numeroBinario, divisao, resto;
 
     printf("Número decimal: \n");
     scanf("d", &numeroDecimal);
-    numneroBinario = (numeroDecimal%2);
+    resto = (numeroDecimal%2);
+
+
+    while (divisao > 0) {
+        int auxiliar;
+
+        auxiliar = resto;
+        divisao = numeroDecimal/2;
+    }
 }

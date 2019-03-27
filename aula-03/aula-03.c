@@ -47,7 +47,6 @@ main () {
         printf("Você foi REPROVADO");
     }
 }
-*/
 
 main () {
     int n;
@@ -60,5 +59,20 @@ main () {
     }
     else {
         printf("o número é impar");
+    }
+}
+*/
+
+main () {
+    int M, N;
+
+    printf("Informe dois números \n");
+    scanf("%d %d", &M, &N);
+
+    if ((M%N) == 0) {
+        printf("o número %d é divisível por %d \n", M, N);
+    }
+    else {
+        printf("o número %d não é divisível por %d", M, N);
     }
 }

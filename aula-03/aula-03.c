@@ -29,7 +29,8 @@ main () {
     else {
         printf("os números em ordem crescente são %d e %d", n2, n1);
     }
-*/
+}
+
 main () {
     float n1, n2, media;
 
@@ -44,5 +45,20 @@ main () {
     }
     else {
         printf("Você foi REPROVADO");
+    }
+}
+*/
+
+main () {
+    int n;
+
+    printf("Digite um número \n");
+    scanf("d", &n);
+
+    if ((n%2) == 0) {
+        printf("o número é par");
+    }
+    else {
+        printf("o número é impar");
     }
 }

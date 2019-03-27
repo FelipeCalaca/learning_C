@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/*
 main () {
     int idade;
 
@@ -12,5 +13,21 @@ main () {
      else {
         printf("Você não pode realizar o exame \n");
 
+    }
+}
+*/
+
+main () {
+    int n1, n2;
+
+    printf("informe dois números diferenstes \n");
+    scanf("%d", &n1);
+    scanf("%d", &n2);
+
+    if (n1 < n2) {
+        printf("os números em ordem crescente são %d e %d", n1, n2);
+    }
+    else {
+        printf("os números em ordem crescente são %d e %d", n2, n1);
     }
 }

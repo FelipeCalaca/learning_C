@@ -5,7 +5,8 @@ int main () {
     scanf("%d", &n);
 
     for (int i = 0; i < n; i++) {
-        scanf("%d", &vet[i]);
+        scanf("%d", &vet[i]); //escanear os numeros a serem digitados no vetor.
+       
     }
     for (int k = 0; k < n; k++) {
         if (vet[k]%2 == 0) {
